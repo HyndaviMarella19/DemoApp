@@ -1,0 +1,33 @@
+
+<body id="allItems">
+  <div class="container-fluid text-warning bg-dark mt-5">
+    <h1 style="text-align: center;">MUST-HAVES IN YOUR WARDROBE</h1>
+  </div>
+  <div class="container-fluid ml-5 demo">
+    <div class="row">
+          <ng-container *ngFor="let prod of productList">
+            <div class="column">
+              <div class="card col-md-3 mt-5">
+                <img src="{{ prod.image }}" alt="" />
+                <h5
+                >
+                  {{ prod.title }}
+                </h5>
+                <p
+                  
+                >
+                  {{ prod.description }}
+                </p>
+                <p><strong>Price:</strong> ${{ prod.price }}</p>
+                <button class="text-warning bg-dark" (click)="addtocart(prod)">
+                  Add to cart
+                </button>
+            
+              </div>
+            </div>
+          </ng-container>
+        </div>
+        </div>
+    
+    
+</body>

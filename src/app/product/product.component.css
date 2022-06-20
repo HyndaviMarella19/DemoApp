@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 15px;
+  font-family: Arial;
+}
+
+.container-fluid {
+  text-align: center;
+  font-weight: bold;
+}
+
+.column {
+  float: left;
+  width: 25%;
+ 
+}
+
+.card{
+  width:60%;
+  height:40%
+}
+
+ .column img:hover {
+    opacity: 1;
+  } 
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+

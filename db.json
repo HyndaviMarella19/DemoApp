@@ -1,0 +1,48 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Women Kurti Set",
+      "price": 3000,
+      "image": "https://i.pinimg.com/originals/20/a2/5e/20a25efe2f8972a30ac1469784c1ad19.jpg" 
+    },
+    {
+      "id": 2,
+      "title": "Women Sharara Set",
+      "price": 4500,
+      "image": "https://www.moranifashion.com/img/productimg/beautiful_kurti_set_m-236.webp" 
+    },
+    {
+      "id": 3,
+      "title": "Men Ethnic wear",
+      "price": 2500,
+      "image": "https://jade-media.jadeblue.com/media/catalog/product/cache/fb4843111cefec207bd4231737a432a0/0/m/0maq_1_1.jpg" 
+    },
+    {
+      "id": 4,
+      "title": "Women Ethnic wear",
+      "price": 2600,
+      "image": "https://img0.junaroad.com/uiproducts/17649453/zoom_0-1617792043.jpg" 
+    },
+    {
+      "id": 5,
+      "title": "Women Lavender dress",
+      "price": 3500,
+      "image": "https://www.soch.com/media/catalog/product/o/w/ows2cd2808b_01.jpg?optimize=medium&bg-color=255%2C255%2C255&fit=cover&height=375&width=840&auto=webp&format=pjpg" 
+    },
+    {
+      "id": 6,
+      "title": "Women Blue Printed top",
+      "price": 2500,
+      "image": "https://rukminim1.flixcart.com/image/714/857/ktketu80/kurta/q/v/8/m-bf-1274-blue-warthy-ent-original-imag6vsyadsk9xns.jpeg?q=50" 
+    }
+    
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ]
+}
